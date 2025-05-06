@@ -23,10 +23,10 @@ export default function RootLayout({
           <header className="bg-white dark:bg-gray-800 shadow-sm transition-colors">
             <div className="container mx-auto px-4 py-4">
               <nav className="flex justify-between items-center">
-                <a href="/" className="text-2xl font-bold text-blue-600 dark:text-blue-400">ExpressAfrique</a>
+                <link href="/" className="text-2xl font-bold text-blue-600 dark:text-blue-400">ExpressAfrique</link>
                 <div className="flex items-center space-x-4">
-                  <a href="/expedition" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Expédition</a>
-                  <a href="/suivi" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Suivi</a>
+                  <link href="/expedition" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Expédition</link>
+                  <link href="/suivi" className="text-gray-600 dark:text-gray-300 hover:text-blue-600 dark:hover:text-blue-400 transition-colors">Suivi</link>
                   <ThemeToggle />
                 </div>
               </nav>
