@@ -37,7 +37,7 @@ export default function Home() {
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-3 text-blue-600">Sécurisé</h3>
-            <p className="text-gray-600">Suivi en temps réel de vos colis jusqu'à leur destination finale.</p>
+            <p className="text-gray-600">Suivi en temps réel de vos colis jusqu&apos;à leur destination finale.</p>
           </div>
           <div className="bg-white p-6 rounded-lg shadow-md">
             <h3 className="text-xl font-semibold mb-3 text-blue-600">Économique</h3>
