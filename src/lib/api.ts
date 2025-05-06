@@ -46,6 +46,8 @@ export async function createShipment(data: ShipmentRequest): Promise<ShipmentRes
   // Simulate API call
   await new Promise(resolve => setTimeout(resolve, 1000))
   
+  console.log(data)
+
   // Simulate a successful response
   return {
     tracking_code: 'AF' + Math.floor(Math.random() * 1000000).toString().padStart(6, '0'),

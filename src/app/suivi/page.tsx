@@ -41,7 +41,7 @@ export default function TrackingPage() {
         Suivi de votre colis
       </h1>
       <p className="text-center text-gray-600 max-w-2xl mx-auto mb-8">
-        Entrez votre numéro de suivi pour connaître l&apos;état actuel de votre colis.
+        Entrez votre numéro de suivi pour connaître l'état actuel de votre colis.
       </p>
       
       <TrackingForm />
